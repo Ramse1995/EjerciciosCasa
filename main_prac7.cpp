@@ -580,7 +580,7 @@ int main(int argc, char** argv)   // Main Function
 	glutReshapeFunc(reshape);	//Indicamos a Glut función en caso de cambio de tamano
 	glutKeyboardFunc(keyboard);	//Indicamos a Glut función de manejo de teclado
 	glutSpecialFunc(arrow_keys);	//Otras
-	glutIdleFunc(animacion);
+	glutIdleFunc(animacion);       
 	glutMainLoop();          // 
 
 	return 0;
